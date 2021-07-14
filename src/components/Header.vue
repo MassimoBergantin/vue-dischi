@@ -1,7 +1,7 @@
 <template>
-    <div class="header">
+    <div class="container">
         <div class="spotify-logo">
-            <img src="../assets/spotify-logo.png" alt="logo-spotify">
+            <img src="../assets/spotify-logo.png" alt="">
         </div>
     </div>
 </template>
@@ -16,6 +16,6 @@ export default {
 
 <style lang="scss" scoped>
     .spotify-logo {
-        width: 100px;
+        width: 120px;
     }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div class="poster-container">
         <div class="inner-poster container">
-            <img :src="image" :alt=" 'poster of ' + author " />
+            <img :src="image">
             <div class="title">{{title}}</div>  
             <div class="author">{{author}}</div>
             <div class="year">{{year}}</div>

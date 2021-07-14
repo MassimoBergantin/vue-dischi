@@ -1,6 +1,6 @@
 <template>
 
-    <div class="project-container">
+    <div class="main-container">
         <div class="container">
             <div class="row">
                 <Poster class="poster-section" v-for="poster in poster" :key='poster.index'
@@ -31,8 +31,8 @@ export default {
 
 
 <style lang="scss" scoped>
-    .project-container {
-        background-color: red;
+    .main-container {
+        
     }
 </style>
 
