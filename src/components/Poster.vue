@@ -25,34 +25,4 @@ export default {
 
 <style lang="scss" scoped>
 
-    .poster-container{
-        text-align: center;
-        margin-top: 10px;
-        
-        .inner-poster {
-            height: 300px;
-            background: #2e3a46;
-            padding: 20px;
-            line-height: 20px;
-                img{
-                width: 100%;
-            }
-            .title{
-                font-weight: bold;
-                color: #fff;
-                padding-top:10px;
-            
-            }
-            .author{
-                font-size: 15px;
-                color: #808080;
-            }
-            .year{
-                font-size: 12px;
-                color: #808080;
-            }
-        }
-        
-    }
-
 </style>

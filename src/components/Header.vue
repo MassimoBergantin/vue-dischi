@@ -15,12 +15,7 @@ export default {
 
 
 <style lang="scss" scoped>
-    .header-container{
-        height: 90px;
-        background-color: #2e3a46; 
-        img{
-            width: 70px;
-            margin: 10px;
-        }
+    .spotify-logo {
+        width: 100px;
     }
 </style>

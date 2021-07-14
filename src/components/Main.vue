@@ -32,17 +32,7 @@ export default {
 
 <style lang="scss" scoped>
     .project-container {
-        background-color:#1e2d3b ;
-        padding: 40px;
-
-        .row{
-            .poster-section{
-            width: calc(100% / 5);
-            padding: 20px;
-            
-            }
-        }
+        background-color: red;
     }
-    
 </style>
 
