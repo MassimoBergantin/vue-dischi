@@ -1,7 +1,7 @@
 <template>
     <div class="poster-container">
         <div class="inner-poster container">
-        <img :src="image" :alt=" 'poster of + ' + author" />
+            <img :src="image" :alt=" 'poster of ' + author " />
             <div class="title">{{title}}</div>  
             <div class="author">{{author}}</div>
             <div class="year">{{year}}</div>
@@ -24,6 +24,7 @@ export default {
 
 
 <style lang="scss" scoped>
+
     .poster-container{
         text-align: center;
         margin-top: 10px;
