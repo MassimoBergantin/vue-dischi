@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <Header />
     <Main :dischi ="dischi"/>
   </div>
@@ -24,12 +24,14 @@ export default {
   },
   created() {
     axios.get('https://flynn.boolean.careers/exercises/api/array/music').then((result) => {
-      this.dischi = result.data
+     this.dischi = result.data.response;
     })
   }
 }
 </script>
 
 <style lang="scss">
+
+@import "./style/app.scss"
 
 </style>

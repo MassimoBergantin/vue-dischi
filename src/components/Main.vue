@@ -1,5 +1,11 @@
 <template>
 <div>
+    <Dischi v-for="(dischi, index) in dischi" :key="index" 
+    :image='dischi.image'
+    :title='dischi.title'
+    :author='dischi.author'
+    :year='dischi.year'
+    />
 
 </div>
 </template>
@@ -22,6 +28,5 @@ export default {
 
 
 <style lang="scss" scoped>
-
 </style>
 

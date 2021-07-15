@@ -1,6 +1,9 @@
 <template>
 <div>
-
+    <img :src="image" :alt="`image of ${title}`" />
+    <div class="title">{{title}}</div>
+    <div class="author">{{author}}</div>
+    <div class="year">{{year}}</div>
 </div>
 </template>
 
