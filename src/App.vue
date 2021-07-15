@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <Main :poster ="poster"/>
+    <Main :dischi ="dischi"/>
   </div>
 </template>
 
@@ -19,17 +19,17 @@ export default {
   },
   data () {
     return {
-      poster: []
+      dischi: []
     }
   },
   created() {
     axios.get('https://flynn.boolean.careers/exercises/api/array/music').then((result) => {
-      this.poster = result.data.result
+      this.dischi = result.data
     })
   }
 }
 </script>
 
 <style lang="scss">
- @import "./style/app.scss"
+
 </style>

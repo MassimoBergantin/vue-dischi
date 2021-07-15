@@ -6,16 +6,13 @@
 
 
 <script>
-import Dischi from './Dischi.vue';
-
 export default {
-    name: 'Main',
-
-    components: {
-        Dischi
-    },
+    name: 'Dischi',
     props: {
-        dischi : Array
+        image: String,
+        title: String,
+        author: String,
+        year: String
     }
 }
 </script>
@@ -24,4 +21,4 @@ export default {
 <style lang="scss" scoped>
 
 </style>
-
+ 
